@@ -1,2 +1,12 @@
 .DS_Store
 **/.DS_Store
+
+# Gradle output and local caches
+.gradle/
+.gradle-user-home/
+build/
+
+# IDE metadata
+.idea/
+*.iml
+/out/

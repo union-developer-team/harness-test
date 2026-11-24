@@ -1,0 +1,18 @@
+spring:
+  application:
+    name: harness-test
+  datasource:
+    url: jdbc:h2:mem:harnesstest
+    username: sa
+    password: ''
+  jpa:
+    hibernate:
+      ddl-auto: create-drop
+    open-in-view: false
+  h2:
+    console:
+      enabled: false
+
+server:
+  address: 127.0.0.1
+  port: 8080
